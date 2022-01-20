@@ -1,0 +1,120 @@
+html {
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+*,
+*::before,
+*::after {
+     box-sizing: inherit; 
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color:#E5CEC1 /* #AA9183 */;
+}
+main {
+    width: 100%;
+    
+}
+.bg{
+    display: flex;
+    width: 65rem;
+    height: 50rem;
+    background-color: #E6D7D0 /* antiquewhite *//* #E5CEC1 */;
+    margin:2rem auto;
+    align-content: center;
+    border-radius: 4rem;
+}
+.bg img {
+    margin: auto;
+    border-radius: 7rem;
+    margin: 6rem 6rem;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 1em;
+    font-size: larger;
+}
+.bilder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.look {
+    width: 20rem;
+    height: 30rem;
+    margin: 2rem 2rem;
+    border-radius: 3rem;
+}
+button {
+    border-radius: 4rem;
+    width: 10rem;
+    background-color: rgb(173, 138, 110);
+}
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 3rem;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    width: 70rem;
+    height: 5rem;
+    padding: 4rem;
+    
+}
+.logotext {
+    text-align: center;
+    width:13rem;
+    height: 10rem;
+    
+}
+/* li {
+    list-style: none;
+    justify-content: space-around;
+} */
+figure {
+    width: 25rem;
+    height: 30rem;
+}
+figure img {
+    width: 13rem;
+    border-radius: 50%;
+    padding: 1rem;
+}
+.advisor {
+    text-align: center;
+    background-color:#E6D7D0;
+    margin: 5rem;
+    padding: 3rem;
+}
+.advisor h1 {
+    font-size: 3rem;
+}
+.advisorcontact {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+   
+}
+.look{
+    transform: scale(1, 1);
+    background-color: blueviolet;
+}
+.look:hover {
+    transform: scale(1.5, 1.5);
+}
